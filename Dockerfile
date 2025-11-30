@@ -17,4 +17,4 @@ ENV FLASK_RUN_HOST=0.0.0.0
 ENV FLASK_RUN_PORT=2323
 
 # 開機啟動命令
-CMD ["flask", "run.py"]
+CMD ["python", "run.py"]
