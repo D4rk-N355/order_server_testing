@@ -14,7 +14,7 @@ COPY . .
 # 設定環境變數 (讓 Flask 在容器裡跑)
 ENV FLASK_APP=run.py
 ENV FLASK_RUN_HOST=0.0.0.0
-ENV FLASK_RUN_PORT=2323
+ENV FLASK_RUN_PORT=8080
 
 # 開機啟動命令
 CMD ["python", "run.py"]
